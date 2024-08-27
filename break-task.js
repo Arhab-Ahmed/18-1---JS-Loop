@@ -33,11 +33,10 @@ let squared = 0 ;
 
 // let squared = r * r; squared ber korar niom
 while(r <= 100){
-   
     console.log(r)
-    if(r **2){
+    squared = r * r
+    r++
+    if(squared > 1){
         break;
     }
-    
-    r++
 }
